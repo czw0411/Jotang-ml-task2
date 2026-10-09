@@ -1,0 +1,35 @@
+{
+  "image": {
+    "height": 540,
+    "width": 960,
+    "channels": 3,
+    "dtype": "uint8",
+    "min": 16,
+    "max": 255
+  },
+  "center_pixel_rgb": [
+    111,
+    122,
+    118
+  ],
+  "center_pixel_yx": [
+    270,
+    480
+  ],
+  "tensor_hwc_shape": [
+    540,
+    960,
+    3
+  ],
+  "tensor_chw_shape": [
+    3,
+    540,
+    960
+  ],
+  "sharpness_laplacian_var": {
+    "original": 60.24705710223261,
+    "mean_blur_3x3": 14.12892864888568,
+    "gaussian_blur_5x5": 11.219452374485522,
+    "sharpen_3x3": 801.0552903441665
+  }
+}

@@ -1,0 +1,8 @@
+numpy>=2.0
+pillow>=10.0
+torch>=2.0
+matplotlib>=3.8
+# 仅用于把 conv_lab.py 转成并执行 notebook.ipynb
+nbformat>=5.9
+nbconvert>=7.0
+ipykernel>=6.0
