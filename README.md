@@ -1,5 +1,15 @@
 # Jotang-ml-task2
 
+本仓库包含机器学习实践的两个部分：
+
+- **实践 1：数字图像表示与二维卷积** —— 本文件的以下内容：手写 NumPy 卷积、
+  均值/高斯/锐化/Sobel 卷积核、valid 与 same 填充对比（另见 `conv_lab.py` 与 `notebook.ipynb`）。
+- **实践 2：训练猫狗分类器（Dogs vs. Cats）** —— 见
+  [`cats-vs-dogs/README.md`](cats-vs-dogs/README.md)：数据准备、预处理、CNN 训练、
+  特征图与错误分析、数据增强对照、独立推理程序与模型结构图。
+
+---
+
 数字图像的表示与二维卷积实验（Task 2）。素材是一张 960×540 的公路行车视角照片
 `images/outer1.png`，围绕它完成了「图像表示 → 读取成 NumPy/PyTorch → 手写二维卷积 →
 四种卷积核处理 → 观察解释 → valid/same 填充对比」的完整流程。

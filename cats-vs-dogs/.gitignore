@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# MLP 基线模型较大（25MB），不提交；主模型 cnn_aug_best.pt 会提交
+outputs/mlp_base_best.pt

@@ -1,0 +1,120 @@
+{
+  "tag": "mlp_base",
+  "model": "mlp",
+  "size": 64,
+  "aug": {
+    "flip": true,
+    "crop": true,
+    "color": false,
+    "none": false
+  },
+  "params": 6555650,
+  "history": {
+    "train_loss": [
+      0.8655,
+      0.6668,
+      0.6461,
+      0.6145,
+      0.5751
+    ],
+    "train_acc": [
+      0.5407,
+      0.6016,
+      0.6279,
+      0.6611,
+      0.6924
+    ],
+    "val_loss": [
+      0.6697,
+      0.6485,
+      0.6581,
+      0.6315,
+      0.6205
+    ],
+    "val_acc": [
+      0.591,
+      0.628,
+      0.616,
+      0.636,
+      0.66
+    ],
+    "epoch_sec": [
+      31.3493,
+      31.3399,
+      31.4854,
+      31.6298,
+      31.4746
+    ]
+  },
+  "best": {
+    "val_acc": 0.66,
+    "epoch": 5,
+    "path": "C:\\Users\\chen\\Documents\\Codex\\2026-10-09\\nen\\Jotang-ml-task2\\cats-vs-dogs\\outputs\\mlp_base_best.pt"
+  },
+  "shapes": [
+    [
+      "net.0",
+      "Flatten",
+      [
+        1,
+        12288
+      ]
+    ],
+    [
+      "net.1",
+      "Linear",
+      [
+        1,
+        512
+      ]
+    ],
+    [
+      "net.2",
+      "ReLU",
+      [
+        1,
+        512
+      ]
+    ],
+    [
+      "net.3",
+      "Dropout",
+      [
+        1,
+        512
+      ]
+    ],
+    [
+      "net.4",
+      "Linear",
+      [
+        1,
+        512
+      ]
+    ],
+    [
+      "net.5",
+      "ReLU",
+      [
+        1,
+        512
+      ]
+    ],
+    [
+      "net.6",
+      "Dropout",
+      [
+        1,
+        512
+      ]
+    ],
+    [
+      "net.7",
+      "Linear",
+      [
+        1,
+        2
+      ]
+    ]
+  ]
+}
